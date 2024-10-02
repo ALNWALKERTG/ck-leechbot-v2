@@ -11,11 +11,11 @@ from web.nodes import make_tree
 
 app = Flask(__name__)
 
-aria2 = ariaAPI(ariaClient(host="http://localhost", port=6800, secret=""))
+aria2 = ariaAPI(ariaClient(host="http://localhost", port=8080, secret=""))
 
 xnox_client = qbClient(
     host="localhost",
-    port=8090,
+    port=8080,
     VERIFY_WEBUI_CERTIFICATE=False,
     REQUESTS_ARGS={"timeout": (30, 60)},
     HTTPADAPTER_ARGS={"pool_maxsize": 200, "pool_block": True},
