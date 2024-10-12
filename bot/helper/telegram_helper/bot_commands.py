@@ -6,7 +6,7 @@ class _BotCommands:
         self.StartCommand = "start"
         self.MirrorCommand = [f"mirror{i}", f"m{i}"]
         self.YtdlCommand = [f"ytdl{i}", f"y{i}"]
-        self.LeechCommand = [f"leech{i}", f"l{i}"]
+        self.LeechCommand = [f"qbleech{i}", f"l{i}"]
         self.YtdlLeechCommand = [f"ytdlleech{i}", f"yl{i}"]
         self.CloneCommand = [f"clone{i}", f"c{i}"]
         self.CountCommand = f"count{i}"
